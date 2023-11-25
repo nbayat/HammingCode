@@ -1,8 +1,6 @@
 
 # Implémentation de Hamming (7,4)
 
-Pour commencer avec l'implémentation de Hamming (7,4)
-
 ```console
 foo@bar:~$ python3 hamming74.py
 
