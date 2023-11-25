@@ -64,10 +64,10 @@ def hamming74_encode(data):
 
     #  ╭──────────────────────────────────────────────────────────╮
     #  │ Construisez le message codé en plaçant les bits          │
-    #  │  de parité aux positions 0, 1, 3, et le reste des        │
-    #  │  bits du message aux positions 2, 4, 5, 6, mais de       │
-    #  │  droite à gauche, comme Hamming lui-même les a           │
-    #  │  écrits de cette manière.                                │
+    #  │ de parité aux positions 0, 1, 3, et le reste des         │
+    #  │ bits du message aux positions 2, 4, 5, 6, mais de        │
+    #  │ droite à gauche, comme Hamming lui-même les avait        │
+    #  │ écrit de cette manière.                                  │
     #  ╰──────────────────────────────────────────────────────────╯
 
     encoded_message = [p1, p2, data[3], p4, data[2], data[1], data[0]]
