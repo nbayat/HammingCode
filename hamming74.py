@@ -94,14 +94,14 @@ def hamming74_decode(received_message):
     
     #  ╭──────────────────────────────────────────────────────────╮
     #  │ Si error_position_decimal n'est pas égal à 0, il         │
-    #  │  corrige l'erreur ; sinon, le message est correct        │
+    #  │ corrige l'erreur ; sinon, le message est correct         │
     #  ╰──────────────────────────────────────────────────────────╯
     
     if error_position_decimal != 0:
         received_message[error_position_decimal - 1] ^= 1 
 
     #  ╭──────────────────────────────────────────────────────────╮
-    #  │ Extract the original data                                │
+    #  │ Extraire les données originales                          │
     #  ╰──────────────────────────────────────────────────────────╯
     decoded_data = [received_message[6], received_message[5], received_message[4], received_message[2]]
 
