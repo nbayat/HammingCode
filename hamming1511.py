@@ -98,7 +98,7 @@ def hamming_decode(received):
 #  ────────────────────────────────────────────────────────────---------------
 
 #  ╭──────────────────────────────────────────────────────────╮
-#  │ demander à l'utilisateur d'entrer un nombre de 4 bits    │
+#  │ demander à l'utilisateur d'entrer un nombre de 15 bits    │
 #  ╰──────────────────────────────────────────────────────────╯
 
 bits = obtenir_nombre_11_bits()
