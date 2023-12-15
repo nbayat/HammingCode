@@ -1,5 +1,5 @@
 
-# Implémentation de Hamming (7,4)
+# Implémentation de Hamming (7,4) et (15,11)
 
 ```console
 foo@bar:~$ python3 hamming74.py
