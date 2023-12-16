@@ -117,6 +117,15 @@ encoded_message = hamming_encode(bits)
 print(Colors.BLUE + f"La représentation binaire : {bits}", Colors.RESET)
 print(Colors.YELLOW + "Le message encodé sans erreur:", encoded_message, Colors.RESET)
 
+
+#  ╭───────────────────────────────────────────────────────────────╮
+#  │ printer les bits de parité aux positions 1, 2, 4 et 8 en vert │
+#  ╰───────────────────────────────────────────────────────────────╯
+print(Colors.GREEN + f"Le bit de parité p1 : {encoded_message[0]}", Colors.RESET)
+print(Colors.GREEN + f"Le bit de parité p2 : {encoded_message[1]}", Colors.RESET)
+print(Colors.GREEN + f"Le bit de parité p4 : {encoded_message[3]}", Colors.RESET)
+print(Colors.GREEN + f"Le bit de parité p8 : {encoded_message[7]}", Colors.RESET)
+
 #  ╭──────────────────────────────────────────────────────────╮
 #  │ Simuler une erreur en inversant un bit                   │
 #  ╰──────────────────────────────────────────────────────────╯
